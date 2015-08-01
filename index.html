@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="Selfy_area">
+       <div class="text_area">
+           <h2>SHAFIQUL ISLAM</h2>
+           <h3>Goup: CTG005</h3>
+           <h4>ID: 1511</h4>
+           <h4>Assignment on Javascript</h4>
+           
+       </div>
+   </div>
+   <div class="code">
+        <button class="button" type="button" onclick="result()">Check odd or even</button>
+        <h1 id="result"></h1>
+
+    <script>
+        function result(){
+        var num = prompt("Enter a number: ");
+
+        if(num%2==0)
+        {
+          document.getElementById("result").innerHTML = num + " is an even number.";
+        }else{
+          document.getElementById("result").innerHTML = num + " is an odd number.";
+        }
+        }
+    </script>
+</div>
+  <div class="code_range">
+      <button class="button" type="button" onclick="range()">Range of even numbers</button>
+      <h1 id="range"></h1>
+   
+    <script>
+        function range(){
+        var max, i;
+        
+        max = prompt("Enter maximum number: ");
+        
+        for(i=1;i<=max;i++)
+        {
+            if(i%2==0)
+            {
+                document.getElementById("range").innerHTML += i + " ";
+            }
+        }
+        }
+    </script>
+  </div>
+  <div class="code_prome">
+     <button class="button" type="button" onclick="prime()">Find Prime Number</button>
+      <h1 id="prime"></h1>
+    
+    <script>
+        
+        function prime(){
+        var n, i, flag=0;
+
+        n = prompt("Enter a number: ");
+        
+        for(i=2;i<=n/2;i++)
+        {
+            if(n%i==0)
+            {
+                flag=1;
+                break;
+            }
+        }
+
+        if(flag==0)
+        {
+            document.getElementById("prime").innerHTML = n + " is a prime number.";
+        }else{
+            document.getElementById("prime").innerHTML = n + " is not a prime number.";
+        }
+        }
+    </script>
+  </div>
+  <div class="footer">
+      <div class="right">
+         <p>&copy;Shafiq_sumon</p> 
+      </div>
+  </div>
+   
+    
+</body>
+</html>

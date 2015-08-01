@@ -1,0 +1,56 @@
+.Selfy_area{
+   
+    height: 160px;
+    background: black;
+    text-align: center;
+    color: #fff;
+}
+.text_area{
+    margin-top: 20px;
+    width: 100%;
+    margin: 0px auto;
+}
+.code{
+    height: 140px;
+    width: 100%;
+    background: gray;
+    color: black;
+    font-weight: bold;
+}
+.code_range{
+    height: 140px;
+    width: 100%;
+    background: #064288;
+    color: yellow;
+    font-weight: bold;
+}
+.code_prome{
+   height: 140px;
+    width: 100%;
+    background: #72B831;
+    color: indigo;
+    font-weight: bold; 
+}
+.button{
+    background: purple;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background: red;
+    color: #fff;
+    margin-top: -16px;
+}
+.right{
+    text-align: center;
+    
+}
+.right p{
+    margin-top: 10px;
+}
